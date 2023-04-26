@@ -459,6 +459,7 @@ class _IntlPhoneFieldState extends State<IntlPhoneField> {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
+                SizedBox(width: 16),
                 if (widget.enabled &&
                     widget.showDropdownIcon &&
                     widget.dropdownIconPosition == IconPosition.leading) ...[
@@ -489,7 +490,7 @@ class _IntlPhoneFieldState extends State<IntlPhoneField> {
                   widget.dropdownIcon,
                 ],
                 SizedBox(
-                  width: 8,
+                  width: 16,
                 ),
                 Padding(
                   padding: EdgeInsets.symmetric(vertical: 7.5),
@@ -498,7 +499,7 @@ class _IntlPhoneFieldState extends State<IntlPhoneField> {
                     color: Colors.grey,
                   ),
                 ),
-                SizedBox(width: 8),
+                SizedBox(width: 16),
               ],
             ),
           ),
